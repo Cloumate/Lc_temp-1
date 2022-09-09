@@ -19,7 +19,7 @@ body:
   
 - type: textarea
   attributes: 
-    description: "Please provide the error code:"
+    description: "Please provide the order number for the STOmics chip:"
     label: "📝Order number for the STOmics chip:"
     placeholder: "SS200000***_** etc."
   validations:
@@ -27,43 +27,27 @@ body:
 
 - type: textarea
   attributes:
-    label: "Reproduce the code example:"
-    description: >
-      A short code example that reproduces the problem/missing feature. It
-      should be self-contained, i.e., can be copy-pasted into the Python
-      interpreter or run as-is via `python myproblem.py`.
+    label: "⌨️Complete command used to run SAW:"
+    description: "Please provide the complete command you used to run SAW:"
     placeholder: |
-      import numpy as np
-      << your code here >>
-    render: python
+      sh <stereoRun.sh> -m maskFile -1 read1 -2 read2 -g indexedGenome -a annotationFile -o outDir -i image -t threads -s visualSif -c genomeSize
+    render: shell
   validations:
     required: true
   
 - type: textarea
   attributes:
-    label: "Error message:"
+    label: "🌟Error message and context for the issue:"
     description: >
-      Please include full error message, if any.
-      If you are reporting a segfault please include a GDB traceback,
-      which you can generate by following
-      [these instructions](https://github.com/numpy/numpy/blob/main/doc/source/dev/development_environment.rst#debugging).
-    placeholder: |
-      << Full traceback starting from `Traceback: ...` >>
-    render: shell
-
-- type: textarea
-  attributes:
-    label: "NumPy/Python version information:"
-    description: Output from `import sys, numpy; print(numpy.__version__, sys.version)`.
+      Please include full error messages, if any. Screenshots of your error messages or the log files would be helpful! 
+    placeholder:
+      ```
+      The error messages you got, with the full traceback.
+      ```
   validations:
     required: true
 
-- type: textarea
+- type: markdown
   attributes:
-    label: "Context for the issue:"
-    description: |
-      Please explain how this issue affects your work or why it should be prioritized.
-    placeholder: |
-      << your explanation here >>
-  validations:
-    required: false
+    value: >
+      Thanks for contributing 🎉!
