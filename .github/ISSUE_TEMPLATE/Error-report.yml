@@ -1,5 +1,5 @@
 name: ⚠️Error report
-description: Create a report to help us solve the oroblem. If this doesn’t look right, choose a different type. Please write a comprehensive title after the Error prefix first.
+description: Create a report to help us solve the oroblem. If this doesn’t look right, choose a different type. Please write a comprehensive title after the 'Error' prefix first.
 title: "Error: "
 labels: [00 - Bug]
 
