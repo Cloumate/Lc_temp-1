@@ -1,4 +1,4 @@
-name: ⚠️Issues for SAW
+###### ⚠️Issues for SAW
 description: Create a report to help us solve the problem. Please write a comprehensive title after the 'Issue' prefix first. 
 title: "Issue: "
 
