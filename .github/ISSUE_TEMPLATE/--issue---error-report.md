@@ -1,7 +1,7 @@
 ---
 name: "##Issue:⚠️Error report"
-about: Please read & provide the following
-title: "[Error]"
+about: Create a report to help us solve the error
+title: ''
 labels: bug, good first issue, help wanted, invalid
 assignees: Clouate
 
