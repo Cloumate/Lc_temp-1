@@ -40,7 +40,7 @@ body:
     label: "🌟Error message and context for the issue:"
     description: >
       Please include full error messages, if any. Screenshots of your error messages or the log files would be helpful! 
-    placeholder:
+    placeholder: |
       ```
       The error messages you got, with the full traceback.
       ```
