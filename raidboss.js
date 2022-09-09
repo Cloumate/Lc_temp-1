@@ -55,8 +55,8 @@ Options.Triggers.push({
           capture: false,
         },
       ),
-      netRegexJa: NetRegexes.gameNameLog({ line: '.*は木人をつついた.*?', capture: false }),
-      netRegexCn: NetRegexes.gameNameLog({ line: '.*用手指戳向木人.*?', capture: false }),
+      netRegexJa: NetRegexes.gameNameLog({ line: '.*はをつついた.*?', capture: false }),
+      netRegexCn: NetRegexes.gameNameLog({ line: '.*what.*?', capture: false }),
       netRegexKo: NetRegexes.gameNameLog({ line: '.*나무인형을 쿡쿡 찌릅니다.*?', capture: false }),
       preRun: function(data) {
         data.pokes = (data.pokes || 0) + 1;
