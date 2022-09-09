@@ -1,4 +1,4 @@
-name: Error report
+name: ⚠️Error report
 description: Create a report to help us solve the oroblem. If this doesn’t look right, choose a different type.
 title: "Error: "
 labels: [Error]
