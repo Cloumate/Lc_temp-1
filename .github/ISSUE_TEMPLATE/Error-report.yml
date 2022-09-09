@@ -1,13 +1,13 @@
 name: ⚠️Error report
-description: Create a report to help us solve the oroblem. If this doesn’t look right, choose a different type.
+description: Create a report to help us solve the oroblem. If this doesn’t look right, choose a different type.Please write a comprehensive title after the 'Error: ' prefix first.
 title: "Error: "
-labels: [Error]
+labels: [00 - Bug]
 
 body:
 - type: markdown
   attributes:
     value: >
-      ##### Thank you for taking the time to file a error report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues).
+      ###### Thank you for taking the time to file a error report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues).
 
 - type: textarea
   attributes: 
