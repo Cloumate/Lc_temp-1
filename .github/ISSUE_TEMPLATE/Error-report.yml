@@ -20,10 +20,10 @@ body:
 - type: textarea
   attributes: 
     description: "Please provide the error code:"
-    label: "Describe the issue:"
-    placeholder: "SAW-A10400 signal 11 etc."
+    label: "📝Order number for the STOmics chip:"
+    placeholder: "SS200000***_** etc."
   validations:
-    required: true
+    required: false
 
 - type: textarea
   attributes:
