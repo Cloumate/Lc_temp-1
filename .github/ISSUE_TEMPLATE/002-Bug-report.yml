@@ -1,6 +1,6 @@
 name: 🐛Bug report
 description: Create a report to help us solve the problem. Please write a comprehensive title after the 'Bug' prefix first. 
-title: "Bug: "
+title: "🐛Bug: "
 labels: "bug"
 
 body:
