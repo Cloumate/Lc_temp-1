@@ -16,13 +16,15 @@ body:
     placeholder: "SS200000***_** etc."
   validations:
     required: false
+    
 - type: dropdown
-  id: Softwares
-  attributes: 
-    label: Which software are you having trouble installing?
+  id: download
+  attributes:
+    label: How did you download the software?
     options:
-      - Singularity
-      - SAW.sif
-      - others(describe them below)
- validations:
+      - Homebrew
+      - MacPorts
+      - apt-get
+      - Built from source
+  validations:
     required: true
