@@ -16,3 +16,13 @@ body:
     placeholder: "SS200000***_** etc."
   validations:
     required: false
+- type: dropdown
+  id: Softwares
+  attributes: 
+    label: Which software are you having trouble installing?
+    options:
+      - Singularity
+      - SAW.sif
+      - others(describe them below)
+ validations:
+    required: true
