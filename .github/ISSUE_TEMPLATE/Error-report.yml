@@ -15,7 +15,7 @@ body:
     description: "Please provide the error code:"
     placeholder: "SAW-A10400 signal 11 etc."
   validations:
-    required: true
+    required: false
   
 - type: textarea
   attributes: 
