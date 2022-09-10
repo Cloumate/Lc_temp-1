@@ -18,7 +18,7 @@ body:
     required: false
 
 - type: dropdown
-  id: 📂Softwares
+  id: Softwares
   attributes:
     label: 📂Which software are you having trouble installing?
     options:
@@ -28,7 +28,7 @@ body:
     required: true
 
 - type: dropdown
-  id: 🚫Permission
+  id: Permission
   attributes: 
     label: 🚫Your permissions on the server?
     options:
