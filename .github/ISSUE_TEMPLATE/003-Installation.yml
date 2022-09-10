@@ -50,8 +50,8 @@ body:
       3) The install command
       4) The error messages you got, with the full traceback.
       ```
-    validations:
-      required: true
+   validations:
+     required: true
 
 - type: markdown
   attributes:
