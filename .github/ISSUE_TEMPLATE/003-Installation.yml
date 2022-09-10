@@ -7,7 +7,7 @@ body:
 - type: markdown
   attributes:
     value: >
-      #### Thank you for taking the time to report an installation problem. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues).
+      #### Thank you for taking the time to report an installation problem. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues). 
 
 - type: textarea
   attributes: 
