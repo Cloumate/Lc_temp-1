@@ -11,17 +11,12 @@ body:
 
 - type: textarea
   attributes: 
-    label: "🐛Bug description:"
-    description: |
-      Please provide a clear and concise description of what the bug is.
-      If relevant, please add a example so that we can reproduce the bug by running the code. We are going to copy-paste your code and we expect to get the same result as you did.
-    placeholder: |
-      ```
-      # Sample code to reproduce the problem
-      ```
+    label: "💻Error code:"
+    description: "Please provide the error code:"
+    placeholder: "SAW-A10400 signal 11 etc."
   validations:
     required: false
-  
+    
 - type: textarea
   attributes: 
     description: "Please provide the order number for the STOmics chip(if possible):"
@@ -31,15 +26,19 @@ body:
     required: false
 
 - type: textarea
-  attributes:
-    label: "⌨️Complete command used to run SAW:"
-    description: "Please provide the complete command you used to run SAW:"
+  attributes: 
+    label: "🐛Bug description:"
+    description: |
+      Please provide a clear and concise description of what the bug is.
+      If relevant, please add a example so that we can reproduce the bug by running the code. We are going to copy-paste your code and we expect to get the same result as you did.
     placeholder: |
-      sh <stereoRun.sh> -m maskFile -1 read1 -2 read2 -g indexedGenome -a annotationFile -o outDir -i image -t threads -s visualSif -c genomeSize
-    render: shell
+      ```
+      Please provide your code that produced the bug.
+      ```
+      render: shell
   validations:
     required: true
-  
+
 - type: textarea
   attributes:
     label: "🌟Error message and context for the issue:"
@@ -49,9 +48,19 @@ body:
       ```
       The error messages you got, with the full traceback.
       ```
+      render: shell
   validations:
     required: true
-
+    
+- type: textarea
+  attributes:
+    label: "🎯Any ideas or advises about this bug?"
+    description: "We would really appreciate it if you could provide some ideas or advises about this bug!"
+    placeholder: |
+      Any ideas about this bug would be helpful!
+  validations:
+    required: false
+  
 - type: markdown
   attributes:
     value: >
