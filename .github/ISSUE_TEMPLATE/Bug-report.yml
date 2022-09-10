@@ -35,7 +35,7 @@ body:
       ```
       Please provide your code that produced the bug.
       ```
-      render: shell
+    render: shell
   validations:
     required: true
 
