@@ -1,0 +1,53 @@
+name: ⚠️Error report
+description: Create a report to help us solve the problem. Please write a comprehensive title after the 'Error' prefix first. 
+title: "Error: "
+labels: "Error"
+
+body:
+- type: markdown
+  attributes:
+    value: >
+      #### Thank you for taking the time to file a error report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues).
+
+- type: textarea
+  attributes: 
+    label: "💻Error code:"
+    description: "Please provide the error code:"
+    placeholder: "SAW-A10400 signal 11 etc."
+  validations:
+    required: false
+  
+- type: textarea
+  attributes: 
+    description: "Please provide the order number for the STOmics chip(if possible):"
+    label: "📝Order number for the STOmics chip(if possible):"
+    placeholder: "SS200000***_** etc."
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: "⌨️Complete command used to run SAW:"
+    description: "Please provide the complete command you used to run SAW:"
+    placeholder: |
+      sh <stereoRun.sh> -m maskFile -1 read1 -2 read2 -g indexedGenome -a annotationFile -o outDir -i image -t threads -s visualSif -c genomeSize
+    render: shell
+  validations:
+    required: true
+  
+- type: textarea
+  attributes:
+    label: "🌟Error message and context for the issue:"
+    description: >
+      Please include full error messages, if any. Screenshots of your error messages or the log files would be helpful! 
+    placeholder: |
+      ```
+      The error messages you got, with the full traceback.
+      ```
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: >
+      Thanks for contributing 🎉!
