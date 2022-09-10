@@ -17,4 +17,12 @@ body:
   validations:
     required: false
     
-
+- type: dropdown
+  id: download
+  attributes: 
+    label: Which software are you having trouble installing?
+    options:
+      - Singularity
+      - SAW.sif
+ validations:
+    required: true
