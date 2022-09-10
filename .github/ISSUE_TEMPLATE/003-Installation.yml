@@ -24,6 +24,6 @@ body:
     options:
       - Singularity
       - SAW.sif
-      - others described below
+      - others
  validations:
     required: true
