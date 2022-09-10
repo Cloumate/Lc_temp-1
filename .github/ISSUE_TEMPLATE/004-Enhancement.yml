@@ -1,7 +1,7 @@
 name: 🚀Enhancement
 description: Submit a proposal/request for progressively improving quality of our softwares. Please write a comprehensive title after the 'Enhancement' prefix first. 
 title: "Enhancement: "
-labels: "enahncement"
+labels: "enhancement"
 
 body:
 - type: markdown
