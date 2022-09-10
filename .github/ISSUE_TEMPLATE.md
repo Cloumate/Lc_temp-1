@@ -8,8 +8,8 @@ Please provide the error code:
 
 
   
-## 📝Order number for the STOmics chip:
-Please provide the order number for the STOmics chip:
+## 📝Order number for the STOmics chip(if possible):
+Please provide the order number for the STOmics chip(if possible):
 
 
 
