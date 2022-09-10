@@ -1,5 +1,5 @@
-name: 🐛Bug report
-#name: 💾Installation
+
+name: 💾Installation
 description: Create a short report if you encoutered problems when installing the SAW.sif. Please write a comprehensive title after the 'Installation' prefix first. 
 title: "Installation: "
 labels: "Installation/environment"
