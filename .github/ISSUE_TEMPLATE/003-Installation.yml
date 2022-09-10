@@ -28,13 +28,13 @@ body:
     required: true
 
 - type: dropdown
-  id: Permission
+  id: 🚫Permission
   attributes: 
-    label: Your permissions on the server?
+    label: 🚫Your permissions on the server?
     options:
       - root
       - non-root user
- validations:
+  validations:
     required: true
   
 - type: textarea
