@@ -18,12 +18,42 @@ body:
     required: false
 
 - type: dropdown
-  id: Softwares
+  id: 📂Softwares
   attributes:
-    label: Which software are you having trouble installing?
+    label: 📂Which software are you having trouble installing?
     options:
       - Singularity
       - SAW.sif
   validations:
     required: true
 
+- type: dropdown
+  id: Permission
+  attributes: 
+    label: Your permissions on the server?
+    options:
+      - root
+      - non-root user
+ validations:
+    required: true
+  
+- type: textarea
+  attributes:
+    label: "🌟Error message and context for the issue:"
+    description: >
+      Please include full error messages, if any. Screenshots of your error messages or the log files would be helpful! 
+    placeholder: |
+      ```
+      Please provide more information about this issue including but not limited to:
+      1) The versions of softwares you wanted to install
+      2) The versions of softwares you used.(e.g. Please provide version of Singularity when having trouble installing SAW.sif)
+      3) The install command
+      4) The error messages you got, with the full traceback.
+      ```
+    validations:
+      required: true
+
+- type: markdown
+  attributes:
+    value: >
+      Thanks for contributing 🎉!
