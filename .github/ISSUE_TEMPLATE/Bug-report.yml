@@ -1,19 +1,24 @@
-name: ⚠️Error report
-description: Create a report to help us solve the problem. Please write a comprehensive title after the 'Error' prefix first. 
-title: "Error: "
-labels: "Error"
+name: 🐛Bug report
+description: Create a report to help us solve the problem. Please write a comprehensive title after the 'Bug' prefix first. 
+title: "Bug: "
+labels: "bug"
 
 body:
 - type: markdown
   attributes:
     value: >
-      #### Thank you for taking the time to file a error report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues).
+      #### Thank you for taking the time to file a bug report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues).
 
 - type: textarea
   attributes: 
-    label: "💻Error code:"
-    description: "Please provide the error code:"
-    placeholder: "SAW-A10400 signal 11 etc."
+    label: "🐛Bug description:"
+    description: |
+      Please provide a clear and concise description of what the bug is.
+      If relevant, please add a example so that we can reproduce the bug by running the code. We are going to copy-paste your code and we expect to get the same result as you did.
+    placeholder: |
+      ```
+      # Sample code to reproduce the problem
+      ```
   validations:
     required: false
   
