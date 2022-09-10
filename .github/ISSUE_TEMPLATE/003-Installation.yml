@@ -18,7 +18,7 @@ body:
     required: false
     
 - type: dropdown
-  id: download
+  id: Softwares
   attributes: 
     label: Which software are you having trouble installing?
     options:
