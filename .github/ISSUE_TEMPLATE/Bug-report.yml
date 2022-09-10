@@ -48,7 +48,7 @@ body:
       ```
       The error messages you got, with the full traceback.
       ```
-      render: shell
+    render: shell
   validations:
     required: true
     
