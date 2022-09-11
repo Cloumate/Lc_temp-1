@@ -11,7 +11,7 @@ body:
 
 - type: textarea
   attributes: 
-    label: "💻\$\color{red}{Error code}\$:"
+    label: "💻Error code:"
     description: "Please provide the error code:"
     placeholder: "SAW-A10400 signal 11 etc."
   validations:
