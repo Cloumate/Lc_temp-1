@@ -13,7 +13,7 @@ body:
   attributes: 
     label: "💻Error code:"
     description: "Please provide the error code:"
-    placeholder: "SAW-A10400 signal 11 etc."
+    placeholder: "e.g. SAW-A10400 signal 11"
   validations:
     required: false
   
@@ -21,7 +21,7 @@ body:
   attributes: 
     description: "Please provide the order number for the STOmics chip(if possible):"
     label: "📝Order number for the STOmics chip(if possible):"
-    placeholder: "SS200000***_** etc."
+    placeholder: "e.g. SS200000***_**"
   validations:
     required: false
 
