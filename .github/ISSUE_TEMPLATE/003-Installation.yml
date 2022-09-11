@@ -13,7 +13,7 @@ body:
   attributes: 
     description: "Please provide the order number for the STOmics chip(if possible):"
     label: "📝Order number for the STOmics chip(if possible):"
-    placeholder: "SS200000***_** etc."
+    placeholder: "e.g. SS200000***_**"
   validations:
     required: false
 
@@ -44,11 +44,11 @@ body:
       Please include full error messages, if any. Screenshots of your error messages or the log files would be helpful! 
     placeholder: |
       ```
-      Please provide more information about this issue including but not limited to:
-      1) The versions of softwares you wanted to install
-      2) The versions of softwares you used.(e.g. Please provide version of Singularity when having trouble installing SAW.sif)
-      3) The install command
-      4) The error messages you got, with the full traceback.
+      Please provide more information about this issue including but not limited to:    
+      1) The versions of softwares you wanted to install    
+      2) The versions of softwares you used.(e.g. Please provide version of Singularity when having trouble installing SAW.sif)   
+      3) The install command    
+      4) The error messages you got, with the full traceback.   
       ```
   validations:
     required: true
