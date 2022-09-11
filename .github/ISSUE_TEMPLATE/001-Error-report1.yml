@@ -32,7 +32,7 @@ body:
     placeholder: |
       e.g. 
       sh <stereoRun.sh> -m maskFile -1 read1 -2 read2 -g indexedGenome -a annotationFile -o outDir -i image -t threads -s visualSif -c genomeSize
-      or other codes you used. 
+        or other codes you used. 
     render: shell
   validations:
     required: true
