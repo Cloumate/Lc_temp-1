@@ -13,7 +13,7 @@ body:
   attributes: 
     label: "💻Error code:"
     description: "Please provide the error code:"
-    placeholder: "SAW-A10400 signal 11 etc."
+    placeholder: "e.g. SAW-A10400 signal 11 "
   validations:
     required: false
     
@@ -21,13 +21,13 @@ body:
   attributes: 
     description: "Please provide the order number for the STOmics chip(if possible):"
     label: "📝Order number for the STOmics chip(if possible):"
-    placeholder: "SS200000***_** etc."
+    placeholder: "e.g. SS200000***_** "
   validations:
     required: false
 
 - type: textarea
   attributes: 
-    label: "🐛Bug description:"
+    label: "🔥Bug description:"
     description: |
       Please provide a clear and concise description of what the bug is.
       If relevant, please add a example so that we can reproduce the bug by running the code. We are going to copy-paste your code and we expect to get the same result as you did.
