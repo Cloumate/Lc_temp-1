@@ -58,7 +58,6 @@ body:
       ```
       The error messages you got, with the full traceback.
       ```
-    render: shell
   validations:
     required: true
 
@@ -68,7 +67,6 @@ body:
     description: "We would really appreciate it if you could provide some ideas or advises about this bug!"
     placeholder: |
       Any ideas about this problem would be helpful!
-    render: shell
   validations:
     required: false
     
