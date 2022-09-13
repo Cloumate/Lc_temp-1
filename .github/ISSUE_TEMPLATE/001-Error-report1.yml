@@ -40,12 +40,9 @@ body:
   attributes:
     value: >
       ####                                   
-       ####                                   
-        ####                                   
-         ####                                   
-          ####                                   
-           ####                                   
-            ####                                   
+      ####                    
+      ####   
+      ####  
 
 - type: textarea
   attributes:
