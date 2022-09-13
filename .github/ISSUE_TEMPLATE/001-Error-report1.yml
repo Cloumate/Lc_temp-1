@@ -14,6 +14,7 @@ body:
     label: "💻Error code:"
     description: "Please provide the error code:"
     placeholder: "e.g. SAW-A10400 signal 11"
+    render: shell
   validations:
     required: false
   
@@ -22,6 +23,7 @@ body:
     description: "Please provide the SN number for the STOmics chip(if possible):"
     label: "📝SN number for the STOmics chip(if possible):"
     placeholder: "e.g. SS200000***_**"
+    render: shell
   validations:
     required: false
    
@@ -56,6 +58,7 @@ body:
       ```
       The error messages you got, with the full traceback.
       ```
+    render: shell
   validations:
     required: true
 
@@ -65,6 +68,7 @@ body:
     description: "We would really appreciate it if you could provide some ideas or advises about this bug!"
     placeholder: |
       Any ideas about this problem would be helpful!
+    render: shell
   validations:
     required: false
     
