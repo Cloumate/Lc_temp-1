@@ -14,6 +14,7 @@ body:
     description: "Please provide the SN number for the STOmics chip(if possible):"
     label: "📝SN number for the STOmics chip(if possible):"
     placeholder: "e.g. SS200000***_**"
+    render: shell
   validations:
     required: false
     
