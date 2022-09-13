@@ -19,11 +19,22 @@ body:
   
 - type: textarea
   attributes: 
-    description: "Please provide the order number for the STOmics chip(if possible):"
-    label: "📝Order number for the STOmics chip(if possible):"
+    description: "Please provide the SN number for the STOmics chip(if possible):"
+    label: "📝SN number for the STOmics chip(if possible):"
     placeholder: "e.g. SS200000***_**"
   validations:
     required: false
+   
+- type: dropdown
+  id: Permission
+  attributes: 
+    label: 🏦Did you purchase Stereo-seq Chips and Reagents Kit??
+    options:
+      - ✔️
+      - ❌
+  validations:
+    required: true
+
 
 - type: textarea
   attributes:
