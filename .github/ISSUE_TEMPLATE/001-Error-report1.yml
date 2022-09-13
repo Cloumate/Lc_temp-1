@@ -30,8 +30,8 @@ body:
   attributes: 
     label: 🏦Did you purchase Stereo-seq Chips and Reagents Kit??
     options:
-      - ✔️
-      - ❌
+      - ✔️ YES
+      - ❌ NO
   validations:
     required: true
 
@@ -59,6 +59,15 @@ body:
   validations:
     required: true
 
+- type: textarea
+  attributes:
+    label: "🎯Any ideas or advises about this problem?"
+    description: "We would really appreciate it if you could provide some ideas or advises about this bug!"
+    placeholder: |
+      Any ideas about this problem would be helpful!
+  validations:
+    required: false
+    
 - type: markdown
   attributes:
     value: >
