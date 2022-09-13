@@ -36,16 +36,16 @@ body:
       - ❌ NO
   validations:
     required: true
-
-
-
-
-
-
-
-
-
-
+- type: markdown
+  attributes:
+    value: >
+      ####                                   
+       ####                                   
+        ####                                   
+         ####                                   
+          ####                                   
+           ####                                   
+            ####                                   
 
 - type: textarea
   attributes:
