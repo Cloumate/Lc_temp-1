@@ -1,0 +1,67 @@
+name: 🔥Bug report
+description: Create a report to help us solve the problem. Please write a comprehensive title after the 'Bug' prefix first. 
+title: "Bug: "
+labels: "bug"
+
+body:
+- type: markdown
+  attributes:
+    value: >
+      #### Thank you for taking the time to file a bug report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for [existing and past issues](https://github.com/BGIResearch/SAW/issues).
+
+- type: textarea
+  attributes: 
+    label: "💻Error code:"
+    description: "Please provide the error code:"
+    placeholder: "e.g. SAW-A10400 signal 11 "
+  validations:
+    required: false
+    
+- type: textarea
+  attributes: 
+    description: "Please provide the order number for the STOmics chip(if possible):"
+    label: "📝Order number for the STOmics chip(if possible):"
+    placeholder: "e.g. SS200000***_** "
+  validations:
+    required: false
+
+- type: textarea
+  attributes: 
+    label: "🔥Bug description:"
+    description: |
+      Please provide a clear and concise description of what the bug is.
+      If relevant, please add a example so that we can reproduce the bug by running the code. We are going to copy-paste your code and we expect to get the same result as you did.
+    placeholder: |
+      ```
+      Please provide your code that produced the bug.
+      ```
+    render: shell
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: "🌟Error message and context for the issue:"
+    description: >
+      Please include full error messages, if any. Screenshots of your error messages or the log files would be helpful! 
+    placeholder: |
+      ```
+      The error messages you got, with the full traceback.
+      ```
+    render: shell
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: "🎯Any ideas or advises about this bug?"
+    description: "We would really appreciate it if you could provide some ideas or advises about this bug!"
+    placeholder: |
+      Any ideas about this bug would be helpful!
+  validations:
+    required: false
+  
+- type: markdown
+  attributes:
+    value: >
+      Thanks for contributing 🎉!
